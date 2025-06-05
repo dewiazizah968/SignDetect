@@ -47,3 +47,14 @@ If you want to train the models from scratch, follow these steps:
 5. 5_SVM.py: Training the SVM classifier
 6. 6_Prediksi SVM.py: Predicting sign language gestures using SVM
 7. main.py: Streamlit app to run the interactive GUI
+
+## Contributors
+Thank you to the following contributors for their work on this project:
+
+- [Dewi](https://github.com/dewiazizah968)
+- [Sheila](https://github.com/SheilaEdistya)
+- [Fatimah](https://github.com/FatimahAzzaroh28)
+
+We welcome contributions to improve SignDetect. Please feel free to fork the repository and submit a pull request.
+
+Thank you for your interest in SignDetect! If you have any questions or need further assistance, please don’t hesitate to reach out.
