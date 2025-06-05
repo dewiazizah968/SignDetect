@@ -2,8 +2,8 @@ import os
 import random
 from PIL import Image, ImageEnhance
 
-input_data = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\Data Mentah Proyek PCD'
-output_data = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\newdataset_mentah'
+input_data = 'Data Mentah Proyek PCD'
+output_data = 'newdataset_mentah'
 os.makedirs(output_data, exist_ok=True)
 
 # Fungsi augmentasi

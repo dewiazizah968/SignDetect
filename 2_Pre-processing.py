@@ -2,8 +2,8 @@ import os
 import cv2
 import numpy as np
 
-input = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\newdataset_mentah'      
-output = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\Data Biner'      # Folder hasil biner (otomatis)
+input = 'newdataset_mentah'      
+output = 'Data Biner'      # Folder hasil biner (otomatis)
 
 os.makedirs(output, exist_ok=True)
 

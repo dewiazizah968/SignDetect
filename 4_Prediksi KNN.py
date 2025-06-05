@@ -6,9 +6,9 @@ import numpy as np
 import joblib
 
 # Load model PCA, KNN, dan Label Encoder
-pca = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_KNN\\pca_model.joblib')
-knn = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_KNN\\knn_model.joblib')
-le = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_KNN\\label_encoder.joblib')
+pca = joblib.load('pca_model.joblib')
+knn = joblib.load('knn_model.joblib')
+le = joblib.load('label_encoder.joblib')
 
 def resize_crop_center(img, target_size=(128, 128)):
     h, w = img.shape[:2]

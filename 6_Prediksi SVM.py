@@ -6,9 +6,9 @@ import numpy as np
 import joblib
 
 # Load model PCA, SVM, dan Label Encoder
-pca = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_SVM\\pca_model.joblib')
-svm = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_SVM\\svm_model.joblib')
-le = joblib.load('D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_SVM\\label_encoder.joblib')
+pca = joblib.load('pca_model.joblib')
+svm = joblib.load('svm_model.joblib')
+le = joblib.load('label_encoder.joblib')
 
 def resize_crop_center(img, target_size=(128, 128)):
     h, w = img.shape[:2]

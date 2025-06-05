@@ -10,8 +10,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 
-data_biner = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\Data Biner'
-save_dir = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_SVM'
+data_biner = 'Data Biner'
+save_dir = 'saved_model_SVM'
 os.makedirs(save_dir, exist_ok=True)
 
 data = []

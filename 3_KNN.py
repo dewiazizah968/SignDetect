@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 
-data_path = 'D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\Data Biner'
+data_path = 'Data Biner'
 image_data = []
 labels = []
 
