@@ -5,8 +5,8 @@ import numpy as np
 import joblib
 import os
 
-knn_path = "D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_KNN"
-svm_path = "D:\\PYTHON PROJECT\\Data Science UNESA\\Semester 4\\PCD\\saved_model_SVM"
+knn_path = "saved_model_KNN"
+svm_path = "saved_model_SVM"
 
 # Load model KNN
 pca_knn = joblib.load(os.path.join(knn_path, "pca_model.joblib"))
